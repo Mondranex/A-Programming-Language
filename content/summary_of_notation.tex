@@ -314,23 +314,23 @@ Suffix of weight \( j \)
 % content:
 % \( j \)th unit vector
 % 	& \( \vect{w} \gets \symbfup{\epsilon}^{j}(h) \)
-% 	& \( \vect{w}_{i} = (i = j) \)
+% 	& \( \vect{w}_{i} = (i = j) \); \( \dimvect(\vect{w}) = h \)
 % 	\\
 % Full vector
 % 	& \( \vect{w} \gets \symbfup{\epsilon}(h) \)
-% 	& \( \vect{w}_{i} = 1 \)
+% 	& \( \vect{w}_{i} = 1 \); \( \dimvect(\vect{w}) = h \)
 % 	\\
 % Zero vector
 % 	& \( \vect{w} \gets \overline{\symbfup{\epsilon}}(h) \) \newline \( \vect{w} \gets 0 \)
-% 	& \( \vect{w}_{i} = 0 \) 
+% 	& \( \vect{w}_{i} = 0 \); \( \dimvect(\vect{w}) = h \)
 % 	\\
 % Prefix of weight \( j \)
 % 	& \( \vect{w} \gets \symbfup{\alpha}^{j}(h) \)
-% 	& First \( k \) of \( \vect{w}_{i} \) are unity where \( k = \min (j, h) \).
+% 	& First \( k \) of \( \vect{w}_{i} \) are unity where \( k = \min (j, h) \); \( \dimvect(\vect{w}) = h \).
 % 	\\
 % Suffix of weight \( j \)
 % 	& \( \vect{w} \gets \symbfup{\omega}^{j}(h) \)
-% 	& Last \( k \) of \( \vect{w}_{j} \) are unity where \( k = \min(j, k) \).
+% 	& Last \( k \) of \( \vect{w}_{j} \) are unity where \( k = \min(j, k) \); \( \dimvect(\vect{w}) = h \).
 % 	\\
 Maximum Prefix 
 	& \( \vect{w} \gets \mathop{\alpha /} \vect{u} \)
